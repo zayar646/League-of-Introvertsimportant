@@ -186,4 +186,7 @@ section>span{
     .secondcontainer{
     	margin-left: 72px;
     }
+    .arrowleft {
+    	right: 7vw;
+	}
 }
