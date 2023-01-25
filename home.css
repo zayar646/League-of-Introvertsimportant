@@ -91,7 +91,7 @@ h1{
     height: 281px;
     width: 63vw;
     overflow: hidden;
-    margin-left: 45px;
+    margin-left: 32px;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
@@ -164,11 +164,9 @@ section>span{
     }
 }
 @media only screen and (max-width: 600px) {
-    .centercontainer{
-    	display: none;
-    }
     .secondcontainer {
-        width: 53vw;
+        width: 50vw;
+        margin-left: 70px;
     }
     .firstcontainer{
         width: 60vw;
@@ -183,10 +181,4 @@ section>span{
         opacity: 100%;
         transition: opacity 0.5s ease-in-out 0s;
     }
-    .secondcontainer{
-    	margin-left: 72px;
-    }
-    .arrowleft {
-    	right: 7vw;
-	}
 }

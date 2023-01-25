@@ -7,12 +7,13 @@
 	<link rel="icon" type="image/x-icon" href="../League-of-Introverts/pj photo1/logo.png">
 	<!--search icon link from other website-->
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script><script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-	<!--search icon link from other website-->
+	<!--link for navigation bar style-->
 	<link rel="stylesheet" type="text/css" href="nav.css">
 	<!--link for footer style-->
 	<link rel="stylesheet" type="text/css" href="footer.css">
-	<!--link for about us page style-->
+	<!--link for  page style-->
 	<link rel="stylesheet" type="text/css" href="selectbook.css">
+	<!--link for search song screen when click-->
 	<link rel="stylesheet" type="text/css" href="searchsong.css">
 	<title>ကလေးရဟန္တာများ</title>
 </head>
@@ -102,55 +103,52 @@
 		
 		<!--navigation bar container-->
 		<nav>
-		<a href="index.html" class="logo"><img src="../League-of-Introverts/pj photo1/biglogo.png" alt="logo" class="logopic"></a>
-		<a href="home.html" class="home">Home</a>
-		<!--drop down button-->
-		<button id="browse" onclick="browse()">Browse<span class="arrow"></span></button>
-		<!--drop down list -->
-			<div id="browselist" class="list">
-				<!--left side of the drop down list-->
-				<div class="left">
+			<a href="index.html" class="logo"><img src="../League-of-Introverts/pj photo1/biglogo.png" alt="logo" class="logopic"></a>
+			<a href="home.html" class="home">Home</a>
+			<!--drop down button-->
+			<button id="browse" onclick="browse()">Browse<span class="arrow"><!--arrow icon beside the browse--></span></button>
+			<!--drop down list -->
+				<div id="browselist" class="list">
+					<!--left side of the drop down list-->
+					<div class="left">
 					<!--genres lists-->
-				<p>Genres</p>
-				
-				<ul class="listul">
-					<a href="Adventure.html"><li>Adventure</li></a>
-                    <a href="History.html"><li>History</li></a>
-                    <a href="Fiction.html"><li>Fiction</li></a>
-                    <a href="Religion.html"><li>Religion</li></a>
-                    <a href="Drama.html"><li>Drama</li></a>
-                    <a href="Romance.html"><li>Romance</li></a>
-                    <a href="Editor Picks.html"><li>Editor Picks</li></a>
-                    <a href="Poetry.html"><li>Poetry</li></a>
-                    <a href="Life Style.html"><li>Life Style</li></a>
-                    <a href="Education.html"><li>Education</li></a>
-                    <a href="Children's literature.html"><li>Children's literature</li></a>
-                    <a href="Autobiographical novel.html"><li>Autobiographical novel</li></a>
-				</ul>
-				</div>
-				<!--right side of the drop down list-->
-				<div class="right">
-					<!--writers lists-->
-					<p>Writer</p>
-					<ul class="listul writerlist">
-						<a href="Tekkatho_Phone_Naing.html"><li>Tekkatho Phone Naing</li></a>
-						<a href="Chit Oo Nyo.html"><li>Chit Oo Nyo</li></a>
-						<a href="Khin Khin Htoo.html"><li>Khin Khin Htoo</li></a>
-						<a href="Moe Moe.html"><li>Moe Moe(Inya)</li></a>
-						<a href="Tetsuko Kuroyanagi.html"><li>Tetsuko Kuroyanagi</li></a>
-						<a href="ဆန်းလွင်.html"><li>San Lwin</li></a>
-						<a href="ရွှေဥဒေါင်း.html"><li>Shwe U Daung</li></a>
-						<a href="ကြည်အေး.html"><li>Kyi Aye</li></a>
+					<p>Genres</p>
+					<ul class="listul">
+						<a href="Adventure.html"><li>Adventure</li></a>
+						<a href="History.html"><li>History</li></a>
+						<a href="Fiction.html"><li>Fiction</li></a>
+						<a href="Religion.html"><li>Religion</li></a>
+						<a href="Drama.html"><li>Drama</li></a>
+						<a href="Romance.html"><li>Romance</li></a>
+						<a href="Editor Picks.html"><li>Editor Picks</li></a>
+						<a href="Poetry.html"><li>Poetry</li></a>
+						<a href="Life Style.html"><li>Life Style</li></a>
+						<a href="Education.html"><li>Education</li></a>
+						<a href="Children's literature.html"><li>Children's literature</li></a>
+						<a href="Autobiographical novel.html"><li>Autobiographical novel</li></a>
 					</ul>
+					</div>
+					<!--right side of the drop down list-->
+					<div class="right">
+						<!--writers lists-->
+						<p>Writer</p>
+						<ul class="listul writerlist">
+							<a href="Tekkatho_Phone_Naing.html"><li>Tekkatho Phone Naing</li></a>
+							<a href="Chit Oo Nyo.html"><li>Chit Oo Nyo</li></a>
+							<a href="Khin Khin Htoo.html"><li>Khin Khin Htoo</li></a>
+							<a href="Moe Moe.html"><li>Moe Moe(Inya)</li></a>
+							<a href="Tetsuko Kuroyanagi.html"><li>Tetsuko Kuroyanagi</li></a>
+							<a href="ဆန်းလွင်.html"><li>San Lwin</li></a>
+							<a href="ရွှေဥဒေါင်း.html"><li>Shwe U Daung</li></a>
+							<a href="ကြည်အေး.html"><li>Kyi Aye</li></a>
+						</ul>
+					</div>
 				</div>
-			</div>
-		
-			
-			<a href="about.html" class="about">About</a>
-			<!--search icon-->
-			<a href="search.html"><ion-icon  class="search" name="search-outline"></ion-icon></a>
-			<a class="login" href="login.html">Log in</a>
-	</nav>
+				<a href="about.html" class="about">About</a>
+				<!--search icon-->
+				<a href="search.html"><ion-icon  class="search" name="search-outline"></ion-icon></a>
+				<a class="login" href="login.html">Log in</a>
+		</nav>
 
 	<!--the icons and searchsong at the top right coner of the pages-->
 	<div class="soundbox">
